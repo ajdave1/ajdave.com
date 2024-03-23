@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajdave</title>
+  <link rel="stylesheet" href="/css/style2.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="container" id="home">
+    <h1>Ajdave</h1>
+    <ul id="sidemenu">
+      <li><a href="#home"> Home</a></li>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+
+
+      <i class='bx bx-x' onclick="closemenu()"></i>
+    </ul>
+    <div id="cc">
+      <a href="#contact">Contact me</a>
+    </div>
+    <i class='bx bx-menu' onclick="openmenu()"></i>
+  </nav>
+
+  <section class="container">
+
+    <div class="image-text">
+      <h1>Hi, <br />I'm Ajagbe David</h1>
+      <p>Front-end developer</p>
+      <button><a href="mailto:ajagbedavid7@gmail.com"> Hire Me</a></button>
+    </div>
+    <div class="image">
+      <img src="./assets/IMG_1493.png" />
+    </div>
+
+  </section>
+  <main id="about-me">
+    <h1>About me</h1>
+    <div class="flex">
+      <div class="about-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniamctetur dicta mollitia
+          eligendi maxime ex, commodi distinctio, doloribus eius blanditiis
+          sit deserunt fuga? Ipsum illo explicabo sequi veniam vitae. Aliquam
+          ad quidem ut possimus? Nihil culpa laborum necessitatibus sunt
+          labore soluta reprehenderit quidem eius commodi voluptatibus
+          molestiae, deserunt harum consequuntur non ipsum sed expedita
+          inventore quae debitis exercitationem minima mollitia sint quis id.
+          Nesciunt, officia mollitia debitis ullam architecto impedit iure
+          quam sint, perspiciatis voluptas blanditiis consectetur, libero
+          velit dicta repellat? Sunt minus
+        </p>
+      </div>
+
+      <div class="about-imag">
+        <div class="about-image"></div>
+
+      </div>
+
+
+    </div>
+    <div class="skills"> <i class='bx bxl-html5'></i> <i class='bx bxl-css3'></i> <i class='bx bxl-javascript'></i>
+    </div>
+  </main>
+  <div class="projects" id="projects">
+    <h1>My projects</h1>
+    <div class="project">
+      <div class="projects-img">
+        <img src="./assets/project1.jpeg" alt="" id="m-30" /><img src="./assets/project2.jpeg" alt="" id="m-60" /><img
+          src="./assets/project3.jpeg" alt="" id="m-30" />
+      </div>
+      <div class="play-video"> <i class='bx bx-play-circle'></i>
+        <span> click to play video</span>
+      </div>
+      <div class="project-video">
+        <video src="./assets/myvideo.mov" controls></video>
+      </div>
+    </div>
+
+  </div>
+  <div class="socials">
+
+    <div><a href="https://www.facebook.com/profile.php?id=100087200995618&mibextid=LQQJ4d"> <i
+          class='bx bxl-facebook'></i></a></div>
+
+    <div> <a href="https://www.instagram.com/wazy_dee?igsh=ZWI2YzEzYmMxYg=="> <i class='bx bxl-instagram'></i></a>
+    </div>
+    <div><a
+        href="https://www.linkedin.com/in/ajagbe-david-9012b42b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+        <i class='bx bxl-linkedin'></i></a></div>
+  </div>
+  <form action="" id="contact">
+    <h1>Send me a message</h1>
+    <input type="text" placeholder="Please enter your name " />
+
+    <input type="email" placeholder="Please enter your email" />
+
+    <textarea placeholder="Message"></textarea>
+    <br />
+    <button id="bt">Send</button>
+    <div class="scroll">
+      <a href="#home" title="scroll back up">
+        <i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </form>
+  <footer>&copy;copyright 2024 Ajdave, all rights reserved </footer>
+  <script src="./script/portfolio.js"> </script>
+</body>
+
+</html>
