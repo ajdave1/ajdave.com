@@ -155,7 +155,7 @@ padding: 10px;
     
 }
 
-#button a {
+#button {
     border: none;
     font-weight: bold;
     font-size: 0.9em;
@@ -165,6 +165,7 @@ padding: 10px;
     color: white;
     margin-top: 20px;
     margin-bottom: 40px;
+    text-decoration: none;
     
 }
 .main-text h1{
