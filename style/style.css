@@ -146,25 +146,29 @@ padding: 7px;
    
     
 }
-#button a {
+#button  {
     border: none;
     font-weight: bold;
     font-size: 0.9em;
     padding: 10px 40px ;
     cursor: pointer;
     background-color: purple;
-    margin-top: 20px;
-     text-decoration: none;
+    margin-top: 10px;
+    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
+
 
 .main-text h1{
     font-family: Verdana;
     font-size: 2.3em;
+    font-variant: small-caps;
 }
 .main-text p {
  font-size: 0.8em;
  font-weight:bold;
+ margin-bottom: 20px;
 }
 .main-socials{
     width:webk-kit-fill-available-space;
@@ -175,12 +179,20 @@ padding: 7px;
    display: block;
   
 }
-
+#skills > div > i{
+    font-size: 2.4em;
+}
 .main-socials > div{
 padding: 10px;
 
 
 }
+
+.main-socials > div a{
+    text-decoration: none;
+    color: inherit;
+}
+
 form { 
  
     display: flex;
