@@ -1,0 +1,343 @@
+.darkmode{
+    background-color: black;
+     color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+#open , #close{
+    display: none;
+}
+body {
+     background-color: rgba(255, 255, 255, 0.897);
+     /* background-color: black; */
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     transition: 0.7s;
+    }
+
+
+.background-purple{position: absolute;
+    background-color: purple;
+    width: 30%;
+    height: 100%;
+    color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.home{ 
+    background-color: transparent;
+
+    height: 100vh;
+}
+nav{
+
+    width:80%;  
+    display: flex;
+    justify-content: space-between;
+    padding: 0pX 50px;
+     margin: 0% auto;
+     text-decoration: none;
+     background-color: inherit;
+}
+
+nav ul li  {
+    list-style-type: none;
+   display: inline-block;
+   justify-content: space-between;
+   padding: 10px 20px ;
+
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: inherit;
+    color: purple;
+}
+#logo{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    
+}
+.icons{ display: none;}
+
+#turndark{
+font-size: 1.5em;
+padding: 10px 12px;
+background-color:rgba(0, 0, 0, 0.452);
+border-radius: 50%;
+color: white;
+
+}
+#btn{
+    background-color: purple;
+    padding: 10px 30px ;
+    cursor:pointer;
+    color: white;
+    
+}
+main{
+    width: 75%;
+    margin: 0% auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: 100vh;
+}
+.main-image{
+    width: 40%;
+    padding: 50px;
+    margin-top: 20px;
+    
+    
+}
+.black{
+    background-color: black;
+}
+.white{
+  background-color: white; 
+}
+.image-container{
+    width: 60%;
+    transition: 0.7s;
+    display: flex;
+ justify-content:center ;
+ padding: 35px ;
+ border: 10px solid purple;
+ border-radius: 50%;
+ height: 250px;
+
+
+    
+}
+.the-image {
+border-radius: 50%;
+background-color:rgb(51, 13, 51);
+border: 15px solid purple;
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 7px;
+
+
+}
+
+.the-image img {
+  width: 100%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.main-text{
+    width: 30% ;
+    margin-top: 120px;
+    margin-left: -50px;
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+#button a {
+    border: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 10px 40px ;
+    cursor: pointer;
+    background-color: purple;
+    margin-top: 20px;
+     text-decoration: none;
+    color: white;
+}
+
+.main-text h1{
+    font-family: Verdana;
+    font-size: 2.3em;
+}
+.main-text p {
+ font-size: 0.8em;
+ font-weight:bold;
+}
+.main-socials{
+    width:webk-kit-fill-available-space;
+   font-size: 1.5em;
+   margin-top: 140px;
+   margin-bottom:100px ;
+   margin-left: 100px;
+   display: block;
+  
+}
+
+.main-socials > div{
+padding: 10px;
+
+
+}
+form { 
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 400px;
+justify-content: space-between
+}
+.background-white{
+    width: 100%;
+    background-color: inherit;
+}
+form input {
+    width: 44%;
+    margin: 10px 0px;
+    padding:5px;
+    color: black;
+}
+form textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+form h1{
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+}
+form input[type="submit"]{
+    width: 100px ;
+    background-color: purple;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    cursor:pointer;
+    float: right;
+}
+
+#sent{
+    color: green;
+    font-size: 1em;
+}
+section{
+    width: 100%;
+  border-top: 20px solid purple;
+  margin-top: -120px;
+
+
+}
+.section {
+    width: 70%;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.section-container{
+    width: 20%;
+    background-color: transparent;
+    display: flex;
+    justify-content:center ;
+    padding: 30px ;
+    border: 10px solid purple;
+    border-radius: 50%;
+    height: 190px;
+
+
+    
+}
+.section-image {
+border-radius: 50%;
+background-color:rgb(51, 13, 51);
+border: 15px solid purple;
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 7px;
+}
+
+.section-image img {
+  width: 100%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.about-me h2 {
+    width: 100%;
+    font-variant: small-caps;
+
+
+}
+.about-me {
+    width: 60%;
+    margin-left: 50px;
+}
+.about-me p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+#skills{
+font-variant: small-caps;
+}
+section h1 {
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 70px;
+}
+.container{
+    width: 70% ;
+    display: flex;
+    margin: 0% auto;
+    flex-wrap:wrap;
+}
+.card{
+width: 20%;
+border: 2px solid rgba(0, 0, 0, 0.089);
+padding:10px;
+display: flex;
+flex-wrap: wrap;
+margin: 50px;
+justify-content: center;
+}
+.card-image{ width: 100%;}
+.card-image span{
+    font-size: 0.6em;
+    color: gray;
+    text-align: center;
+   
+}
+.card img{
+ width: 100%;
+ height: 200px;
+ 
+
+}
+.card-text{
+    margin-top: 10px ;
+    font-size: 0.8em;
+    text-align: center;
+}
+.card strong{
+    font-variant: small-caps;
+}
+article{
+    width: 100%;
+    margin-top: 200px;
+}
+article h1 {
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: purple;
+    color: black;
+    font-size: 0.6em;
+    text-align: center;
+    padding: 40px 0px;
+}
