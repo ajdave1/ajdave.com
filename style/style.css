@@ -339,12 +339,12 @@ justify-content: center;
 }
 article{
     width: 100%;
-    margin-top: 200px;
+    margin: 200px 0px ;
 }
 article h1 {
     text-align: center;
     font-variant: small-caps;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 footer{
     background-color: purple;
